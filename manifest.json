@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmic.workspaces",
+  "name": "Cosmic's Workspaces",
+  "version": "1.0.0",
+  "author": "TheCosmicMoose",
+  "description": "Workspace Icon Indicators",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "My Workspaces",
+    "description": "Workspace number indicators",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}
